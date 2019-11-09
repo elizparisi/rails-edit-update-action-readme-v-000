@@ -219,3 +219,5 @@ Started GET "/articles/1" for 127.0.0.1 at 2019-11-09 04:30:26 +0000
 Started GET "/articles/edit/1" for 127.0.0.1 at 2019-11-09 04:30:26 +0000
 Processing by ArticlesController#edit as HTML
   Parameters: {"id"=>"1"}
+Completed 406 Not Acceptable in 17ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
